@@ -4,7 +4,8 @@ import axios from 'axios';
 
 export default class ClassList extends Component {
   constructor() {
-    super()
+    super();
+    
     this.state = {
       students: []
     }
